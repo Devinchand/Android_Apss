@@ -15,7 +15,14 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.skripsi.Login;
+import com.example.skripsi.Menu.BuburA;
+import com.example.skripsi.Menu.BuburB2;
+import com.example.skripsi.Menu.BuburB2Kecil;
+import com.example.skripsi.Menu.BuburI;
+import com.example.skripsi.Menu.Kulit;
+import com.example.skripsi.Menu.Shabu;
 import com.example.skripsi.Menu.Songsui;
+import com.example.skripsi.Menu.SongsuiKecil;
 import com.example.skripsi.databinding.FragmentMenuBinding;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -31,11 +38,68 @@ public class MenuFragment extends Fragment {
         View root = binding.getRoot();
 
         btn1 = binding.ibtn1;
+        btn2 = binding.ibtn2;
+        btn3 = binding.ibtn3;
+        btn4 = binding.ibtn4;
+        btn5 = binding.ibtn5;
+        btn6 = binding.ibtn6;
+        btn7 = binding.ibnt7;
+        btn8 = binding.ibtn8;
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), Songsui.class);
+                startActivity(i);
+            }
+        });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), BuburB2.class);
+                startActivity(i);
+            }
+        });
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), BuburI.class);
+                startActivity(i);
+            }
+        });
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), BuburA.class);
+                startActivity(i);
+            }
+        });
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), Shabu.class);
+                startActivity(i);
+            }
+        });
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), SongsuiKecil.class);
+                startActivity(i);
+            }
+        });
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), BuburB2Kecil.class);
+                startActivity(i);
+            }
+        });
+
+        btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), Kulit.class);
                 startActivity(i);
             }
         });

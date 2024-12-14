@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu.BuburB2Kecil"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_background">
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/ic_launcher_round"
+                android:layout_margin="10dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bubur Kecil"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="isian :"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_margin="10dp">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/list_item_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Daging"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp">
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/daging"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end">
+                </CheckBox>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/list_item_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hati"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp">
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/hati"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end">
+                </CheckBox>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/list_item_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Usus"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp">
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/usus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end">
+                </CheckBox>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/list_item_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jantung"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp">
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/jantung"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end">
+                </CheckBox>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/list_item_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Darah"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp">
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/darah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end">
+                </CheckBox>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="toping :"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_margin="10dp">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/list_item_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Telor"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="+ Rp.6000"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"
+                    android:gravity="right"
+                    android:layout_weight="1">
+                </TextView>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/telor"
+                    android:layout_gravity="end">
+                </CheckBox>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/list_item_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sosis"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="+ Rp.12000"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"
+                    android:gravity="right"
+                    android:layout_weight="1">
+                </TextView>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sosis"
+                    android:layout_gravity="end">
+                </CheckBox>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/Catatan1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tambahkan Catatan"
+                android:minHeight="48dp"
+                android:background="@drawable/input_background"
+                android:layout_margin="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/quantityInput"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:minHeight="48dp"
+                    android:hint="0"
+                    android:textAlignment="center"
+                    android:inputType="number"
+                    android:background="@drawable/input_background"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CONFIRM"
+        android:id="@+id/btnok">
+    </Button>
+
+</LinearLayout>
